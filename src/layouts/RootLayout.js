@@ -8,6 +8,7 @@ export default function RootLayout() {
 					<h1>Emlakçı</h1>
 					<NavLink to="/">Anasayfa</NavLink>
 					<NavLink to="about">Hakkımızda</NavLink>
+					<NavLink to="help">İletişim</NavLink>
 				</nav>
 			</header>
 			<main>
