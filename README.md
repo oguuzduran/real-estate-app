@@ -1,1 +1,3 @@
-# real-estate-app
+# EMLAK
+
+Emlak Projesi
