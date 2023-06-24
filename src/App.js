@@ -13,6 +13,7 @@ import Sss from './pages/Sss';
 
 import RootLayout from './layouts/RootLayout';
 import HelpLayout from './layouts/HelpLayout';
+import NotFound from './pages/NotFound';
 
 const router = createBrowserRouter(
 	createRoutesFromElements(
@@ -23,6 +24,7 @@ const router = createBrowserRouter(
 				<Route path="sss" element={<Sss />} />
 				<Route path="contact" element={<Contact />} />
 			</Route>
+			<Route path="*" element={<NotFound />} />
 		</Route>,
 	),
 );
